@@ -10,29 +10,20 @@ let respecConfig = {
   //specStatus: "def",              // Vastgestelde versie
   //specStatus: "basis",            // Basis Document
   //-- specType is verplicht bij alle andere dan BASIS ---------------------------------
-  //specType: "NO",                 // Norm
-  //specType: "ST",                 // Standaard
-  //specType: "IM",                 // Informatie Model
-  //specType: "PR",                 // Praktijkrichtlijn
-  specType: "HR",                     // HandReiking
-  //specType: "WA",                 // Werkafspraak
-  //specType: "BD",                 // Beheer Documentatie
-  //specType: "AL",                 // Algemeen document
-  //specType: "BP",                 // Best Practice
-  specType: "HR",
+  specType: "IM",                 // Informatie Model
   //-- pubDomain is verplicht! (komt in de URL) -------------------------------------
-  pubDomain: "dk",
+  pubDomain: "dso",
   //-- license: voor de geldende gebruiksvoorwaarden. Default is cc-by.
   //licence: "cc-by-nd",            // bronvermelding, geen afgeleide werken (default)
   //licence: "cc0",                 // Public Domain Dedication
   licence: "cc-by",                 // Attribution, met bronvermelding
   //-- shortName is verplicht! (komt in de URL: kies logische afkorting)--------------
-  shortName: "NL-ReSpec-GN-template",
+  shortName: "dso-cim-ex",
   //-- publishDate is verplicht -------------------------------------------------------
   //-- NB: in de werkversie uitzetten, want dan pakt Respec de pushdate ---------------
   //publishDate: "2023-03-28",
   //eventueel is het mogelijk een versienummer mee te geven, maar bij Geonovum werken we gewoonlijk alleen met datum als onderdeel van de permanente URI.
-  //publishVersion: "0.0.2",
+  publishVersion: "0.0.0",
   //previousVersion: "0.0.1",
   //-- Voor dit blok geldt: alleen als er eerdere versies zijn en altijd beiden aan/uit! 
   //previousPublishDate: "2014-05-01",
@@ -42,7 +33,7 @@ let respecConfig = {
   editors:
     [
       {
-        name: "voornaam achternaam",
+        name: "TPOD Team",
         company: "Geonovum",
         companyURL: "https://www.geonovum.nl",
       }
@@ -52,13 +43,13 @@ let respecConfig = {
   authors:
     [
       {
-        name: "voornaam achternaam",
+        name: "TBO",
         company: "Geonovum",
         companyURL: "https://www.geonovum.nl",
       }
     ],
   //neem hier de URL van de github repository op waar het respec document in staat
-  github: "https://github.com/geonovum/NL-ReSpec-GN-template",
+  github: "https://github.com/Geonovum/dso-cim-ex",
   // Create PDF and link to file in header (optional):
   alternateFormats: [
       {
