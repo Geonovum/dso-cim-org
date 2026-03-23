@@ -1,7 +1,7 @@
 <!DOCTYPE html><html lang="nl"><head>
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta content="text/html; charset=utf-8" http-equiv="content-type">
-<meta name="generator" content="ReSpec 35.3.0">
+<meta name="generator" content="ReSpec 35.6.1">
 <style>
 dfn{cursor:pointer}
 .dfn-panel{position:absolute;z-index:35;min-width:300px;max-width:500px;padding:.5em .75em;margin-top:.6em;font-family:"Helvetica Neue",sans-serif;font-size:small;background:#fff;background:var(--indextable-hover-bg,#fff);color:#000;color:var(--text,#000);box-shadow:0 1em 3em -.4em rgba(0,0,0,.3),0 0 1px 1px rgba(0,0,0,.05);box-shadow:0 1em 3em -.4em var(--tocsidebar-shadow,rgba(0,0,0,.3)),0 0 1px 1px var(--tocsidebar-shadow,rgba(0,0,0,.05));border-radius:2px}
@@ -131,7 +131,7 @@ DSO.">
   "nl_organisationPublishURL": "https://docs.geostandaarden.nl/",
   "logos": [
     {
-      "src": "https://tools.geostandaarden.nl/respec/style/logos/Geonovum.svg",
+      "src": "https://docs.geostandaarden.nl/media/Geonovum.svg",
       "alt": "Geonovum",
       "id": "Geonovum",
       "height": 67,
@@ -246,19 +246,19 @@ DSO.">
       "name": "Creative Commons 0 Public Domain Dedication",
       "short": "CC0",
       "url": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "image": "https://tools.geostandaarden.nl/respec/style/logos/CC-Licentie.svg"
+      "image": "https://docs.geostandaarden.nl/media/CC-Licentie.svg"
     },
     "cc-by": {
       "name": "Creative Commons Attribution 4.0 International Public License",
       "short": "CC-BY",
       "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-      "image": "https://tools.geostandaarden.nl/respec/style/logos/cc-by.svg"
+      "image": "https://docs.geostandaarden.nl/media/cc-by.svg"
     },
     "cc-by-nd": {
       "name": "Creative Commons Naamsvermelding-GeenAfgeleideWerken 4.0 Internationaal",
       "short": "CC-BY-ND",
       "url": "https://creativecommons.org/licenses/by-nd/4.0/legalcode.nl",
-      "image": "https://tools.geostandaarden.nl/respec/style/logos/cc-by-nd.svg"
+      "image": "https://docs.geostandaarden.nl/media/cc-by-nd.svg"
     }
   },
   "localBiblio": {
@@ -334,13 +334,13 @@ DSO.">
 <link rel="stylesheet" href="https://tools.geostandaarden.nl/respec/style/base.css"></head>
 
 <body class="h-entry toc-inline"><div class="head">
-    <a class="logo" href="https://www.geonovum.nl/geo-standaarden"><img alt="Geonovum" height="67" id="Geonovum" src="https://tools.geostandaarden.nl/respec/style/logos/Geonovum.svg" width="132">
+    <a class="logo" href="https://www.geonovum.nl/geo-standaarden"><img alt="Geonovum" height="67" id="Geonovum" src="https://docs.geostandaarden.nl/media/Geonovum.svg" width="132">
   </a> <h1 id="title" class="title">Conceptueel Informatiemodel (Overheids-)Organisaties</h1>
     
     <h2>
       Geonovum Informatiemodel<br>
       Werkversie
-      <time class="dt-published" datetime="2025-09-29">29 september 2025</time>
+      <time class="dt-published" datetime="2026-03-23">23 maart 2026</time>
     </h2>
     <dl>
       
@@ -377,14 +377,14 @@ DSO.">
         </p>
     <p class="copyright">
             Dit document valt onder de volgende licentie: 
-            <a rel="license" href="https://creativecommons.org/licenses/by/4.0/legalcode" class="subfoot"><img class="license" src="https://tools.geostandaarden.nl/respec/style/logos/cc-by.svg" alt="Logo Creative Commons Attribution 4.0 International Public License"><br> Creative Commons Attribution 4.0 International Public License</a>
+            <a rel="license" href="https://creativecommons.org/licenses/by/4.0/legalcode" class="subfoot"><img class="license" src="https://docs.geostandaarden.nl/media/cc-by.svg" alt="Logo Creative Commons Attribution 4.0 International Public License"><br> Creative Commons Attribution 4.0 International Public License</a>
           </p>
     <hr title="Separator for header">
   </div>
   <section id="abstract" class="introductory"><h2>Samenvatting</h2><p>Dit document beschrijft het 'Conceptueel Informatiemodel (Overheids-)Organisaties'. Dit is een conceptueel model van het
 DSO.</p>
 </section>
-  <section id="sotd" class="introductory"><h2>Status van dit document</h2><p>Dit is een werkversie die op elk moment kan worden gewijzigd, verwijderd of vervangen door andere documenten. Het is geen stabiel document.</p></section><nav id="toc"><h2 class="introductory" id="inhoudsopgave">Inhoudsopgave</h2><ol class="toc"><li class="tocline"><a class="tocxref" href="#abstract">Samenvatting</a></li><li class="tocline"><a class="tocxref" href="#sotd">Status van dit document</a></li><li class="tocline"><a class="tocxref" href="#voorwoord"><bdi class="secno">1. </bdi>Voorwoord</a></li><li class="tocline"><a class="tocxref" href="#inleiding"><bdi class="secno">2. </bdi>Inleiding</a></li><li class="tocline"><a class="tocxref" href="#toepassingsgebied"><bdi class="secno">3. </bdi>Toepassingsgebied</a></li><li class="tocline"><a class="tocxref" href="#overzicht"><bdi class="secno">4. </bdi>Overzicht</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#normatieve-referenties"><bdi class="secno">4.1 </bdi>Normatieve referenties</a></li><li class="tocline"><a class="tocxref" href="#termen-en-definities"><bdi class="secno">4.2 </bdi>Termen en definities</a></li><li class="tocline"><a class="tocxref" href="#symbolen-en-afkortingen"><bdi class="secno">4.3 </bdi>Symbolen en afkortingen</a></li></ol></li><li class="tocline"><a class="tocxref" href="#cat"><bdi class="secno">5. </bdi>Gegevensdefinitie</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#EAID_54521278_9EB2_4c99_8C56_766F406EBC61"><bdi class="secno">5.1 </bdi>   CIM-ORG - overzicht</a></li><li class="tocline"><a class="tocxref" href="#objecttypen"><bdi class="secno">5.2 </bdi>Objecttypen   </a><ol class="toc"><li class="tocline"><a class="tocxref" href="#global_class_CIMORG_RegistratieveRuimte"><bdi class="secno">5.2.1 </bdi>   Registratieve Ruimte</a></li><li class="tocline"><a class="tocxref" href="#global_class_CIMORG_Bevoegdgezag"><bdi class="secno">5.2.2 </bdi>   Bevoegd gezag</a></li><li class="tocline"><a class="tocxref" href="#global_class_CIMORG_Ambtsgebied"><bdi class="secno">5.2.3 </bdi>   Ambtsgebied</a></li><li class="tocline"><a class="tocxref" href="#global_class_CIMORG_Bestuursorgaan"><bdi class="secno">5.2.4 </bdi>   Bestuursorgaan</a></li><li class="tocline"><a class="tocxref" href="#global_class_CIMORG_Rijk"><bdi class="secno">5.2.5 </bdi>   Rijk</a></li><li class="tocline"><a class="tocxref" href="#global_class_CIMORG_Openbaarlichaamuitgemeenschappelijkeregeling"><bdi class="secno">5.2.6 </bdi>   Openbaar lichaam uit gemeenschappelijke regeling</a></li><li class="tocline"><a class="tocxref" href="#global_class_CIMORG_Gemeente"><bdi class="secno">5.2.7 </bdi>   Gemeente</a></li><li class="tocline"><a class="tocxref" href="#global_class_CIMORG_Overheidsorganisatie"><bdi class="secno">5.2.8 </bdi>   Overheidsorganisatie</a></li><li class="tocline"><a class="tocxref" href="#global_class_CIMORG_Regionaalopenbaarlichaam"><bdi class="secno">5.2.9 </bdi>   Regionaal openbaar lichaam</a></li><li class="tocline"><a class="tocxref" href="#global_class_CIMORG_Behandeldienst"><bdi class="secno">5.2.10 </bdi>   Behandeldienst</a></li><li class="tocline"><a class="tocxref" href="#global_class_CIMORG_Waterschap"><bdi class="secno">5.2.11 </bdi>   Waterschap</a></li><li class="tocline"><a class="tocxref" href="#global_class_CIMORG_Provincie"><bdi class="secno">5.2.12 </bdi>   Provincie</a></li><li class="tocline"><a class="tocxref" href="#global_class_CIMORG_Organisatie"><bdi class="secno">5.2.13 </bdi>   Organisatie</a></li></ol></li><li class="tocline"><a class="tocxref" href="#attribuut-en-relatiesoort-details"><bdi class="secno">5.3 </bdi>Attribuut- en relatiesoort details  </a><ol class="toc"><li class="tocline"><a class="tocxref" href="#objecttype-details"><bdi class="secno">5.3.1 </bdi>Objecttype details  </a><ol class="toc"><li class="tocline"><a class="tocxref" href="#detail_class_CIMORG_RegistratieveRuimte"><bdi class="secno">5.3.1.1 </bdi>   Registratieve Ruimte</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#detail_attribute_CIMORG_RegistratieveRuimte_geometrie"><bdi class="secno">5.3.1.1.1 </bdi>Attribuutsoort details  <span class="formerLink">Registratieve Ruimte</span> geometrie</a></li></ol></li><li class="tocline"><a class="tocxref" href="#detail_class_CIMORG_Bevoegdgezag"><bdi class="secno">5.3.1.2 </bdi>   Bevoegd gezag</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#detail_attribute_CIMORG_Bevoegdgezag_bgcode"><bdi class="secno">5.3.1.2.1 </bdi>Attribuutsoort details  <span class="formerLink">Bevoegd gezag</span> bg-code</a></li><li class="tocline"><a class="tocxref" href="#detail_association_CIMORG_Bevoegdgezag_besteedtuitaan"><bdi class="secno">5.3.1.2.2 </bdi>Relatiesoort details  <span class="formerLink">Bevoegd gezag</span> besteedt uit aan</a></li></ol></li><li class="tocline"><a class="tocxref" href="#detail_class_CIMORG_Bestuursorgaan"><bdi class="secno">5.3.1.3 </bdi>   Bestuursorgaan</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#detail_attribute_CIMORG_Bestuursorgaan_bestuurslaag"><bdi class="secno">5.3.1.3.1 </bdi>Attribuutsoort details  <span class="formerLink">Bestuursorgaan</span> bestuurslaag</a></li></ol></li><li class="tocline"><a class="tocxref" href="#detail_class_CIMORG_Gemeente"><bdi class="secno">5.3.1.4 </bdi>   Gemeente</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#detail_association_CIMORG_Gemeente_neemtdeelaan"><bdi class="secno">5.3.1.4.1 </bdi>Relatiesoort details  <span class="formerLink">Gemeente</span> neemt deel aan</a></li></ol></li><li class="tocline"><a class="tocxref" href="#detail_class_CIMORG_Overheidsorganisatie"><bdi class="secno">5.3.1.5 </bdi>   Overheidsorganisatie</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#detail_association_CIMORG_Overheidsorganisatie_heeft"><bdi class="secno">5.3.1.5.1 </bdi>Relatiesoort details  <span class="formerLink">Overheidsorganisatie</span> heeft</a></li><li class="tocline"><a class="tocxref" href="#detail_association_CIMORG_Overheidsorganisatie_ambtsgebied"><bdi class="secno">5.3.1.5.2 </bdi>Relatiesoort details  <span class="formerLink">Overheidsorganisatie</span> ambtsgebied</a></li></ol></li><li class="tocline"><a class="tocxref" href="#detail_class_CIMORG_Regionaalopenbaarlichaam"><bdi class="secno">5.3.1.6 </bdi>   Regionaal openbaar lichaam</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#detail_association_CIMORG_Regionaalopenbaarlichaam_bestuursgebied"><bdi class="secno">5.3.1.6.1 </bdi>Relatiesoort details  <span class="formerLink">Regionaal openbaar lichaam</span> bestuursgebied</a></li></ol></li><li class="tocline"><a class="tocxref" href="#detail_class_CIMORG_Waterschap"><bdi class="secno">5.3.1.7 </bdi>   Waterschap</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#detail_association_CIMORG_Waterschap"><bdi class="secno">5.3.1.7.1 </bdi>Relatiesoort details  <span class="formerLink">Waterschap</span> -noname-</a></li></ol></li><li class="tocline"><a class="tocxref" href="#detail_class_CIMORG_Provincie"><bdi class="secno">5.3.1.8 </bdi>   Provincie</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#detail_association_CIMORG_Provincie_neemtdeelaan"><bdi class="secno">5.3.1.8.1 </bdi>Relatiesoort details  <span class="formerLink">Provincie</span> neemt deel aan</a></li></ol></li><li class="tocline"><a class="tocxref" href="#detail_class_CIMORG_Organisatie"><bdi class="secno">5.3.1.9 </bdi>   Organisatie</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#detail_attribute_CIMORG_Organisatie_OIN"><bdi class="secno">5.3.1.9.1 </bdi>Attribuutsoort details  <span class="formerLink">Organisatie</span> OIN</a></li></ol></li></ol></li></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#conformance"><bdi class="secno">6. </bdi>Conformiteit</a></li><li class="tocline"><a class="tocxref" href="#tof"><bdi class="secno">7. </bdi>Lijst met figuren</a></li><li class="tocline"><a class="tocxref" href="#index"><bdi class="secno">A. </bdi>Index</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#index-defined-here"><bdi class="secno">A.1 </bdi>Begrippen gedefinieerd door deze specificatie</a></li><li class="tocline"><a class="tocxref" href="#index-defined-elsewhere"><bdi class="secno">A.2 </bdi>Begrippen gedefinieerd door verwijzing</a></li></ol></li></ol></nav>
+  <section id="sotd" class="introductory"><h2>Status van dit document</h2><p>Dit is een werkversie die op elk moment kan worden gewijzigd, verwijderd of vervangen door andere documenten. Het is geen stabiel document.</p></section><nav id="toc"><h2 class="introductory" id="inhoudsopgave">Inhoudsopgave</h2><ol class="toc"><li class="tocline"><a class="tocxref" href="#abstract">Samenvatting</a></li><li class="tocline"><a class="tocxref" href="#sotd">Status van dit document</a></li><li class="tocline"><a class="tocxref" href="#voorwoord"><bdi class="secno">1. </bdi>Voorwoord</a></li><li class="tocline"><a class="tocxref" href="#inleiding"><bdi class="secno">2. </bdi>Inleiding</a></li><li class="tocline"><a class="tocxref" href="#toepassingsgebied"><bdi class="secno">3. </bdi>Toepassingsgebied</a></li><li class="tocline"><a class="tocxref" href="#overzicht"><bdi class="secno">4. </bdi>Overzicht</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#normatieve-referenties"><bdi class="secno">4.1 </bdi>Normatieve referenties</a></li><li class="tocline"><a class="tocxref" href="#termen-en-definities"><bdi class="secno">4.2 </bdi>Termen en definities</a></li><li class="tocline"><a class="tocxref" href="#symbolen-en-afkortingen"><bdi class="secno">4.3 </bdi>Symbolen en afkortingen</a></li></ol></li><li class="tocline"><a class="tocxref" href="#cat"><bdi class="secno">5. </bdi>Gegevensdefinitie</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#EAID_54521278_9EB2_4c99_8C56_766F406EBC61"><bdi class="secno">5.1 </bdi>   CIM-ORG - overzicht</a></li><li class="tocline"><a class="tocxref" href="#objecttypen"><bdi class="secno">5.2 </bdi>Objecttypen   </a><ol class="toc"><li class="tocline"><a class="tocxref" href="#global_class_CIMORG_RegistratieveRuimte"><bdi class="secno">5.2.1 </bdi>   Registratieve Ruimte</a></li><li class="tocline"><a class="tocxref" href="#global_class_CIMORG_Bevoegdgezag"><bdi class="secno">5.2.2 </bdi>   Bevoegd gezag</a></li><li class="tocline"><a class="tocxref" href="#global_class_CIMORG_Ambtsgebied"><bdi class="secno">5.2.3 </bdi>   Ambtsgebied</a></li><li class="tocline"><a class="tocxref" href="#global_class_CIMORG_Bestuursorgaan"><bdi class="secno">5.2.4 </bdi>   Bestuursorgaan</a></li><li class="tocline"><a class="tocxref" href="#global_class_CIMORG_Rijk"><bdi class="secno">5.2.5 </bdi>   Rijk</a></li><li class="tocline"><a class="tocxref" href="#global_class_CIMORG_Openbaarlichaamuitgemeenschappelijkeregeling"><bdi class="secno">5.2.6 </bdi>   Openbaar lichaam uit gemeenschappelijke regeling</a></li><li class="tocline"><a class="tocxref" href="#global_class_CIMORG_Gemeente"><bdi class="secno">5.2.7 </bdi>   Gemeente</a></li><li class="tocline"><a class="tocxref" href="#global_class_CIMORG_Overheidsorganisatie"><bdi class="secno">5.2.8 </bdi>   Overheidsorganisatie</a></li><li class="tocline"><a class="tocxref" href="#global_class_CIMORG_Regionaalopenbaarlichaam"><bdi class="secno">5.2.9 </bdi>   Regionaal openbaar lichaam</a></li><li class="tocline"><a class="tocxref" href="#global_class_CIMORG_Behandeldienst"><bdi class="secno">5.2.10 </bdi>   Behandeldienst</a></li><li class="tocline"><a class="tocxref" href="#global_class_CIMORG_Waterschap"><bdi class="secno">5.2.11 </bdi>   Waterschap</a></li><li class="tocline"><a class="tocxref" href="#global_class_CIMORG_Provincie"><bdi class="secno">5.2.12 </bdi>   Provincie</a></li><li class="tocline"><a class="tocxref" href="#global_class_CIMORG_Organisatie"><bdi class="secno">5.2.13 </bdi>   Organisatie</a></li></ol></li><li class="tocline"><a class="tocxref" href="#attribuut-en-relatiesoort-details"><bdi class="secno">5.3 </bdi>Attribuut- en relatiesoort details  </a><ol class="toc"><li class="tocline"><a class="tocxref" href="#objecttype-details"><bdi class="secno">5.3.1 </bdi>Objecttype details  </a><ol class="toc"><li class="tocline"><a class="tocxref" href="#detail_class_CIMORG_RegistratieveRuimte"><bdi class="secno">5.3.1.1 </bdi>   Registratieve Ruimte</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#detail_attribute_CIMORG_RegistratieveRuimte_geometrie"><bdi class="secno">5.3.1.1.1 </bdi>Attribuutsoort details  <span class="formerLink">Registratieve Ruimte</span> geometrie</a></li></ol></li><li class="tocline"><a class="tocxref" href="#detail_class_CIMORG_Bevoegdgezag"><bdi class="secno">5.3.1.2 </bdi>   Bevoegd gezag</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#detail_attribute_CIMORG_Bevoegdgezag_bgcode"><bdi class="secno">5.3.1.2.1 </bdi>Attribuutsoort details  <span class="formerLink">Bevoegd gezag</span> bg-code</a></li><li class="tocline"><a class="tocxref" href="#detail_association_CIMORG_Bevoegdgezag_besteedtuitaan"><bdi class="secno">5.3.1.2.2 </bdi>Relatiesoort details  <span class="formerLink">Bevoegd gezag</span> besteedt uit aan</a></li></ol></li><li class="tocline"><a class="tocxref" href="#detail_class_CIMORG_Bestuursorgaan"><bdi class="secno">5.3.1.3 </bdi>   Bestuursorgaan</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#detail_attribute_CIMORG_Bestuursorgaan_bestuurslaag"><bdi class="secno">5.3.1.3.1 </bdi>Attribuutsoort details  <span class="formerLink">Bestuursorgaan</span> bestuurslaag</a></li></ol></li><li class="tocline"><a class="tocxref" href="#detail_class_CIMORG_Gemeente"><bdi class="secno">5.3.1.4 </bdi>   Gemeente</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#detail_association_CIMORG_Gemeente_neemtdeelaan"><bdi class="secno">5.3.1.4.1 </bdi>Relatiesoort details  <span class="formerLink">Gemeente</span> neemt deel aan</a></li></ol></li><li class="tocline"><a class="tocxref" href="#detail_class_CIMORG_Overheidsorganisatie"><bdi class="secno">5.3.1.5 </bdi>   Overheidsorganisatie</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#detail_association_CIMORG_Overheidsorganisatie_bestuursorgaan"><bdi class="secno">5.3.1.5.1 </bdi>Relatiesoort details  <span class="formerLink">Overheidsorganisatie</span> bestuursorgaan</a></li><li class="tocline"><a class="tocxref" href="#detail_association_CIMORG_Overheidsorganisatie_ambtsgebied"><bdi class="secno">5.3.1.5.2 </bdi>Relatiesoort details  <span class="formerLink">Overheidsorganisatie</span> ambtsgebied</a></li></ol></li><li class="tocline"><a class="tocxref" href="#detail_class_CIMORG_Regionaalopenbaarlichaam"><bdi class="secno">5.3.1.6 </bdi>   Regionaal openbaar lichaam</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#detail_association_CIMORG_Regionaalopenbaarlichaam_bestuursgebied"><bdi class="secno">5.3.1.6.1 </bdi>Relatiesoort details  <span class="formerLink">Regionaal openbaar lichaam</span> bestuursgebied</a></li></ol></li><li class="tocline"><a class="tocxref" href="#detail_class_CIMORG_Waterschap"><bdi class="secno">5.3.1.7 </bdi>   Waterschap</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#detail_association_CIMORG_Waterschap_neemtdeelaan"><bdi class="secno">5.3.1.7.1 </bdi>Relatiesoort details  <span class="formerLink">Waterschap</span> neemt deel aan</a></li></ol></li><li class="tocline"><a class="tocxref" href="#detail_class_CIMORG_Provincie"><bdi class="secno">5.3.1.8 </bdi>   Provincie</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#detail_association_CIMORG_Provincie_neemtdeelaan"><bdi class="secno">5.3.1.8.1 </bdi>Relatiesoort details  <span class="formerLink">Provincie</span> neemt deel aan</a></li></ol></li><li class="tocline"><a class="tocxref" href="#detail_class_CIMORG_Organisatie"><bdi class="secno">5.3.1.9 </bdi>   Organisatie</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#detail_attribute_CIMORG_Organisatie_OIN"><bdi class="secno">5.3.1.9.1 </bdi>Attribuutsoort details  <span class="formerLink">Organisatie</span> OIN</a></li></ol></li></ol></li></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#conformance"><bdi class="secno">6. </bdi>Conformiteit</a></li><li class="tocline"><a class="tocxref" href="#tof"><bdi class="secno">7. </bdi>Lijst met figuren</a></li><li class="tocline"><a class="tocxref" href="#index"><bdi class="secno">A. </bdi>Index</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#index-defined-here"><bdi class="secno">A.1 </bdi>Termen gedefinieerd door deze specificatie</a></li><li class="tocline"><a class="tocxref" href="#index-defined-elsewhere"><bdi class="secno">A.2 </bdi>Termen gedefinieerd door verwijzing</a></li></ol></li></ol></nav>
 
   <section id="voorwoord"><div class="header-wrapper"><h2 id="x1-voorwoord"><bdi class="secno">1. </bdi>Voorwoord</h2><a class="self-link" href="#voorwoord" aria-label="Permalink for Section 1."></a></div>
 <p>Dit document is tot stand gekomen binnen het programma  DSO-Omgegevingswet. Het bevat de formele vastlegging en beschrijving van het Conceptuele Informatiemodel.</p>
@@ -453,7 +453,7 @@ ontwikkel- als publicatieversies verwijzen.</p>
 <p>Alhoewel elk conceptueel informatiemodel één informatiedomein afbeeldt, zijn er
 dwarsverbanden en afhankelijkheden tussen de verschillende domeinen. De
 conceptuele informatiemodellen worden derhalve in samenhang beheerd en
-ontwikkelt, teneinde de semantische interoperabiliteit in en met het DSO te
+ontwikkeld, teneinde de semantische interoperabiliteit in en met het DSO te
 kunnen waarborgen.</p>
 <p>Dit document bevat de vastlegging en beschrijving van het Conceptueel Informatiemodel (Overheids-)Organisaties.</p>
 </section>
@@ -473,19 +473,19 @@ dataspecificatie.</p>
 </section></section>
 
   
-  <section id="cat" class="normative"><div class="header-wrapper"><h2 id="x5-gegevensdefinitie"><bdi class="secno">5. </bdi>Gegevensdefinitie</h2><a class="self-link" href="#cat" aria-label="Permalink for Section 5."></a></div><section id="EAID_54521278_9EB2_4c99_8C56_766F406EBC61"><div class="header-wrapper"><h3 id="x5-1-cim-org-overzicht"><bdi class="secno">5.1 </bdi>   CIM-ORG - overzicht</h3><a class="self-link" href="#EAID_54521278_9EB2_4c99_8C56_766F406EBC61" aria-label="Permalink for Section 5.1"></a></div><div class="imageinfo overview"><figure class="uml-diagram" id="fig-diagram-cim-org"><img id="EAID_54521278_9EB2_4c99_8C56_766F406EBC61" src="data/Images/EAID_54521278_9EB2_4c99_8C56_766F406EBC61.png" usemap="#imagemap-EAID_54521278_9EB2_4c99_8C56_766F406EBC61" alt="Diagram: CIM-ORG - overzicht"><figcaption><a class="self-link" href="#fig-diagram-cim-org">Figuur <bdi class="figno">2</bdi></a> <span class="fig-title"> ‒ Diagram: CIM-ORG</span></figcaption></figure><map name="imagemap-EAID_54521278_9EB2_4c99_8C56_766F406EBC61"><area shape="rect" alt="Ambtsgebied" coords="724,18,919,127" href="#global_class_CIMORG_Ambtsgebied"><area shape="rect" alt="Bestuursorgaan" coords="510,242,724,352" href="#global_class_CIMORG_Bestuursorgaan"><area shape="rect" alt="Overheidsorganisatie" coords="374,14,551,123" href="#global_class_CIMORG_Overheidsorganisatie"><area shape="rect" alt="Bevoegd gezag" coords="291,242,488,352" href="#global_class_CIMORG_Bevoegdgezag"><area shape="rect" alt="Behandeldienst" coords="41,242,178,352" href="#global_class_CIMORG_Behandeldienst"><area shape="rect" alt="Organisatie" coords="14,14,205,123" href="#global_class_CIMORG_Organisatie"></map><p>
+  <section id="cat" class="normative"><div class="header-wrapper"><h2 id="x5-gegevensdefinitie"><bdi class="secno">5. </bdi>Gegevensdefinitie</h2><a class="self-link" href="#cat" aria-label="Permalink for Section 5."></a></div><section id="EAID_54521278_9EB2_4c99_8C56_766F406EBC61"><div class="header-wrapper"><h3 id="x5-1-cim-org-overzicht"><bdi class="secno">5.1 </bdi>   CIM-ORG - overzicht</h3><a class="self-link" href="#EAID_54521278_9EB2_4c99_8C56_766F406EBC61" aria-label="Permalink for Section 5.1"></a></div><div class="imageinfo overview"><figure class="uml-diagram" id="fig-diagram-cim-org"><img id="EAID_54521278_9EB2_4c99_8C56_766F406EBC61" src="data/Images/EAID_54521278_9EB2_4c99_8C56_766F406EBC61.png" usemap="#imagemap-EAID_54521278_9EB2_4c99_8C56_766F406EBC61" alt="Diagram: CIM-ORG - overzicht"><figcaption><a class="self-link" href="#fig-diagram-cim-org">Figuur <bdi class="figno">2</bdi></a> <span class="fig-title"> ‒ Diagram: CIM-ORG</span></figcaption></figure><map name="imagemap-EAID_54521278_9EB2_4c99_8C56_766F406EBC61"><area shape="rect" alt="Ambtsgebied" coords="751,18,947,127" href="#global_class_CIMORG_Ambtsgebied"><area shape="rect" alt="Bestuursorgaan" coords="538,242,751,352" href="#global_class_CIMORG_Bestuursorgaan"><area shape="rect" alt="Overheidsorganisatie" coords="401,14,579,123" href="#global_class_CIMORG_Overheidsorganisatie"><area shape="rect" alt="Bevoegd gezag" coords="319,242,516,352" href="#global_class_CIMORG_Bevoegdgezag"><area shape="rect" alt="Behandeldienst" coords="14,246,150,356" href="#global_class_CIMORG_Behandeldienst"><area shape="rect" alt="Organisatie" coords="41,14,233,123" href="#global_class_CIMORG_Organisatie"></map><p>
                         </p><p></p>
                      <p></p></div></section><section id="objecttypen"><div class="header-wrapper"><h3 id="x5-2-objecttypen"><bdi class="secno">5.2 </bdi>Objecttypen   </h3><a class="self-link" href="#objecttypen" aria-label="Permalink for Section 5.2"></a></div>
             <section id="global_class_CIMORG_RegistratieveRuimte"><div class="header-wrapper"><h4 id="x5-2-1-registratieve-ruimte"><bdi class="secno">5.2.1 </bdi>   Registratieve Ruimte</h4><a class="self-link" href="#global_class_CIMORG_RegistratieveRuimte" aria-label="Permalink for Section 5.2.1"></a></div>
-               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Registratieve Ruimte</td></tr><tr><th>Definitie</th><td>
+               <table style="width: 100%;" class="overview OVERVIEW-OBJECTTYPE"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>Registratieve Ruimte</td></tr><tr><th scope="row">Herkomst</th><td> </td></tr><tr><th scope="row">Definitie</th><td>
                         
                               <p>Een bestuurlijke ruimte die het bestuursgebied is van een regionaal openbaar lichaam.</p>
                               <p>Toelichting: Deze klasse is ook een subklasse van de klasse Registratieve ruimte in NEN 3610:2022. Deze laatste is gedefinieerd als een op basis van wet- of regelgeving afgebakende ruimte die als eenheid geldt van politiek-bestuurlijke verantwoordelijkheid of voor bedrijfsvoering.</p>
                               <p>Bron: https://standaarden.overheid.nl/tooi/doc/tooi-ontologie/#klasse-registratieve-ruimte </p>
                            
-                     </td></tr><tr><th>Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
+                     </td></tr><tr><th scope="row">Herkomst definitie</th><td> </td></tr><tr><th scope="row">Datum opname</th><td> </td></tr><tr><th scope="row">Unieke aanduiding</th><td> </td></tr><tr><th scope="row">Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
                <div class="header-wrapper"><h5 id="overzicht-attributen">Overzicht attributen  </h5><a class="self-link" href="#global_class_CIMORG_RegistratieveRuimte" aria-label="Permalink for this Section"></a></div>
-                  <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 50%;"></colgroup><colgroup style="width: 10%;"></colgroup><colgroup style="width: 10%;"></colgroup><tbody><tr><th>Attribuutnaam</th><th>Definitie</th><th>Formaat</th><th>Card</th></tr><tr><td>
+                  <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 50%;"></colgroup><colgroup style="width: 10%;"></colgroup><colgroup style="width: 10%;"></colgroup><tbody><tr><th scope="col">Attribuutnaam</th><th scope="col">Definitie</th><th scope="col">Formaat</th><th scope="col">Card</th></tr><tr><td>
                            <a class="link" href="#detail_attribute_CIMORG_RegistratieveRuimte_geometrie">geometrie</a>
                         </td><td></td><td>
                            GM_Object
@@ -493,21 +493,20 @@ dataspecificatie.</p>
                
             </section>
             <section id="global_class_CIMORG_Bevoegdgezag"><div class="header-wrapper"><h4 id="x5-2-2-bevoegd-gezag"><bdi class="secno">5.2.2 </bdi>   Bevoegd gezag</h4><a class="self-link" href="#global_class_CIMORG_Bevoegdgezag" aria-label="Permalink for Section 5.2.2"></a></div>
-               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Bevoegd gezag</td></tr><tr><th>Definitie</th><td>
+               <table style="width: 100%;" class="overview OVERVIEW-OBJECTTYPE"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>Bevoegd gezag</td></tr><tr><th scope="row">Herkomst</th><td> </td></tr><tr><th scope="row">Definitie</th><td>
                         
                               <p>Het orgaan dat een verzoek beoordeelt en een besluit daarover neemt. In het kader van de Omgevingswet worden hiermee het Rijk, provincies, waterschappen en gemeenten bedoeld.</p>
                            
-                     </td></tr><tr><th>Unieke aanduiding</th><td>bg-code</td></tr><tr><th>Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
+                     </td></tr><tr><th scope="row">Herkomst definitie</th><td> </td></tr><tr><th scope="row">Datum opname</th><td> </td></tr><tr><th scope="row">Unieke aanduiding</th><td>bg-code</td></tr><tr><th scope="row">Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
                <div class="header-wrapper"><h5 id="overzicht-attributen-0">Overzicht attributen  </h5><a class="self-link" href="#global_class_CIMORG_Bevoegdgezag" aria-label="Permalink for this Section"></a></div>
-                  <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 50%;"></colgroup><colgroup style="width: 10%;"></colgroup><colgroup style="width: 10%;"></colgroup><tbody><tr><th>Attribuutnaam</th><th>Definitie</th><th>Formaat</th><th>Card</th></tr><tr><td>
+                  <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 50%;"></colgroup><colgroup style="width: 10%;"></colgroup><colgroup style="width: 10%;"></colgroup><tbody><tr><th scope="col">Attribuutnaam</th><th scope="col">Definitie</th><th scope="col">Formaat</th><th scope="col">Card</th></tr><tr><td>
                            <a class="link" href="#detail_attribute_CIMORG_Bevoegdgezag_bgcode">bg-code</a>
                         </td><td></td><td>
                            CHARACTERSTRING
                         </td><td>1</td></tr></tbody></table>
                
                <div class="header-wrapper"><h5 id="overzicht-relaties">Overzicht relaties  </h5><a class="self-link" href="#global_class_CIMORG_Bevoegdgezag" aria-label="Permalink for this Section"></a></div>
-                  
-                  <table style="width: 100%;"><colgroup style="width: 50%;"></colgroup><colgroup style="width: 50%;"></colgroup><tbody><tr><th>Rol naam met kardinaliteiten</th><th>Definitie</th></tr><tr><td>
+                  <table style="width: 100%;"><colgroup style="width: 50%;"></colgroup><colgroup style="width: 50%;"></colgroup><tbody><tr><th scope="col">Relatienaam met kardinaliteiten</th><th scope="col">Definitie</th></tr><tr><td>
                            Bevoegd gezag
                            [ 0 .. * ]
                            
@@ -528,29 +527,29 @@ dataspecificatie.</p>
                            <p>bron: <a href="https://standaarden.overheid.nl/tooi/doc/tooi-ontologie/#klasse-overheidsorganisatie" shape="rect">https://standaarden.overheid.nl/tooi/doc/tooi-ontologie/#klasse-overheidsorganisatie</a>
                            </p>
                         </td></tr></tbody></table>
+                  
                
             </section>
             <section id="global_class_CIMORG_Ambtsgebied"><div class="header-wrapper"><h4 id="x5-2-3-ambtsgebied"><bdi class="secno">5.2.3 </bdi>   Ambtsgebied</h4><a class="self-link" href="#global_class_CIMORG_Ambtsgebied" aria-label="Permalink for Section 5.2.3"></a></div>
-               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Ambtsgebied</td></tr><tr><th>Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
+               <table style="width: 100%;" class="overview OVERVIEW-OBJECTTYPE"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>Ambtsgebied</td></tr><tr><th scope="row">Herkomst</th><td> </td></tr><tr><th scope="row">Definitie</th><td> </td></tr><tr><th scope="row">Herkomst definitie</th><td> </td></tr><tr><th scope="row">Datum opname</th><td> </td></tr><tr><th scope="row">Unieke aanduiding</th><td> </td></tr><tr><th scope="row">Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
             </section>
             <section id="global_class_CIMORG_Bestuursorgaan"><div class="header-wrapper"><h4 id="x5-2-4-bestuursorgaan"><bdi class="secno">5.2.4 </bdi>   Bestuursorgaan</h4><a class="self-link" href="#global_class_CIMORG_Bestuursorgaan" aria-label="Permalink for Section 5.2.4"></a></div>
-               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Bestuursorgaan</td></tr><tr><th>Definitie</th><td>
+               <table style="width: 100%;" class="overview OVERVIEW-OBJECTTYPE"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>Bestuursorgaan</td></tr><tr><th scope="row">Herkomst</th><td> </td></tr><tr><th scope="row">Definitie</th><td>
                         
                               <p>Het begrip <strong>bestuursorgaan</strong> is een van de kernbegrippen in de <a href="https://nl.wikipedia.org/wiki/Algemene_wet_bestuursrecht" shape="rect">Algemene wet bestuursrecht</a>.
 Een bestuursorgaan is volgens de definitie van artikel 1:1 lid 1 Awb een: "orgaan van een <a href="https://nl.wikipedia.org/wiki/Rechtspersoon" shape="rect">rechtspersoon</a> krachtens publiekrecht ingesteld" (a-orgaan), of "een persoon of college, met enig openbaar gezag bekleed" (b-orgaan). Uitzonderingen staan vermeld in art. 1:1 lid 2 Awb.</p>
                               <p>Bron: https://wetten.overheid.nl/BWBR0005537/2024-08-01</p>
                            
-                     </td></tr><tr><th>Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
+                     </td></tr><tr><th scope="row">Herkomst definitie</th><td> </td></tr><tr><th scope="row">Datum opname</th><td> </td></tr><tr><th scope="row">Unieke aanduiding</th><td> </td></tr><tr><th scope="row">Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
                <div class="header-wrapper"><h5 id="overzicht-attributen-1">Overzicht attributen  </h5><a class="self-link" href="#global_class_CIMORG_Bestuursorgaan" aria-label="Permalink for this Section"></a></div>
-                  <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 50%;"></colgroup><colgroup style="width: 10%;"></colgroup><colgroup style="width: 10%;"></colgroup><tbody><tr><th>Attribuutnaam</th><th>Definitie</th><th>Formaat</th><th>Card</th></tr><tr><td>
+                  <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 50%;"></colgroup><colgroup style="width: 10%;"></colgroup><colgroup style="width: 10%;"></colgroup><tbody><tr><th scope="col">Attribuutnaam</th><th scope="col">Definitie</th><th scope="col">Formaat</th><th scope="col">Card</th></tr><tr><td>
                            <a class="link" href="#detail_attribute_CIMORG_Bestuursorgaan_bestuurslaag">bestuurslaag</a>
                         </td><td></td><td>
                            <a class="external-link" href="https://geonovum.github.io/dso-cim-tr/#global_class_CIMTR_Bestuurslaag">Bestuurslaag</a>
                         </td><td>1</td></tr></tbody></table>
                
                <div class="header-wrapper"><h5 id="overzicht-relaties-0">Overzicht relaties  </h5><a class="self-link" href="#global_class_CIMORG_Bestuursorgaan" aria-label="Permalink for this Section"></a></div>
-                  
-                  <table style="width: 100%;"><colgroup style="width: 50%;"></colgroup><colgroup style="width: 50%;"></colgroup><tbody><tr><th>Rol naam met kardinaliteiten</th><th>Definitie</th></tr><tr><td>
+                  <table style="width: 100%;"><colgroup style="width: 50%;"></colgroup><colgroup style="width: 50%;"></colgroup><tbody><tr><th scope="col">Relatienaam met kardinaliteiten</th><th scope="col">Definitie</th></tr><tr><td>
                            Bestuursorgaan
                            is specialisatie van
                            
@@ -561,18 +560,18 @@ Een bestuursorgaan is volgens de definitie van artikel 1:1 lid 1 Awb een: "orgaa
                            <p>bron: <a href="https://standaarden.overheid.nl/tooi/doc/tooi-ontologie/#klasse-overheidsorganisatie" shape="rect">https://standaarden.overheid.nl/tooi/doc/tooi-ontologie/#klasse-overheidsorganisatie</a>
                            </p>
                         </td></tr></tbody></table>
+                  
                
             </section>
             <section id="global_class_CIMORG_Rijk"><div class="header-wrapper"><h4 id="x5-2-5-rijk"><bdi class="secno">5.2.5 </bdi>   Rijk</h4><a class="self-link" href="#global_class_CIMORG_Rijk" aria-label="Permalink for Section 5.2.5"></a></div>
-               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Rijk</td></tr><tr><th>Definitie</th><td>
+               <table style="width: 100%;" class="overview OVERVIEW-OBJECTTYPE"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>Rijk</td></tr><tr><th scope="row">Herkomst</th><td> </td></tr><tr><th scope="row">Definitie</th><td>
                         
                               <p>De klasse Rijk is de (singleton-) klasse van onderdelen van de Nederlandse overheid die wettelijke taken hebben op landelijk niveau: de ‘centrale overheid’.</p>
                               <p>Bron: https://standaarden.overheid.nl/tooi/doc/tooi-ontologie/#klasse-rijk</p>
                            
-                     </td></tr><tr><th>Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
+                     </td></tr><tr><th scope="row">Herkomst definitie</th><td> </td></tr><tr><th scope="row">Datum opname</th><td> </td></tr><tr><th scope="row">Unieke aanduiding</th><td> </td></tr><tr><th scope="row">Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
                <div class="header-wrapper"><h5 id="overzicht-relaties-1">Overzicht relaties  </h5><a class="self-link" href="#global_class_CIMORG_Rijk" aria-label="Permalink for this Section"></a></div>
-                  
-                  <table style="width: 100%;"><colgroup style="width: 50%;"></colgroup><colgroup style="width: 50%;"></colgroup><tbody><tr><th>Rol naam met kardinaliteiten</th><th>Definitie</th></tr><tr><td>
+                  <table style="width: 100%;"><colgroup style="width: 50%;"></colgroup><colgroup style="width: 50%;"></colgroup><tbody><tr><th scope="col">Relatienaam met kardinaliteiten</th><th scope="col">Definitie</th></tr><tr><td>
                            Rijk
                            is specialisatie van
                            
@@ -583,18 +582,18 @@ Een bestuursorgaan is volgens de definitie van artikel 1:1 lid 1 Awb een: "orgaa
                            <p>Bron: <a href="https://standaarden.overheid.nl/tooi/doc/tooi-ontologie/#klasse-regionaal-openbaar-lichaam" shape="rect">https://standaarden.overheid.nl/tooi/doc/tooi-ontologie/#klasse-regionaal-openbaar-lichaam</a>
                            </p>
                         </td></tr></tbody></table>
+                  
                
             </section>
             <section id="global_class_CIMORG_Openbaarlichaamuitgemeenschappelijkeregeling"><div class="header-wrapper"><h4 id="x5-2-6-openbaar-lichaam-uit-gemeenschappelijke-regeling"><bdi class="secno">5.2.6 </bdi>   Openbaar lichaam uit gemeenschappelijke regeling</h4><a class="self-link" href="#global_class_CIMORG_Openbaarlichaamuitgemeenschappelijkeregeling" aria-label="Permalink for Section 5.2.6"></a></div>
-               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Openbaar lichaam uit gemeenschappelijke regeling</td></tr><tr><th>Definitie</th><td>
+               <table style="width: 100%;" class="overview OVERVIEW-OBJECTTYPE"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>Openbaar lichaam uit gemeenschappelijke regeling</td></tr><tr><th scope="row">Herkomst</th><td> </td></tr><tr><th scope="row">Definitie</th><td>
                         
                               <p>Een organisatie die in het leven is geroepen om een gemeenschappelijke regeling uit te voeren uit hoofde van de Wet gemeenschappelijke regelingen (Wgr).</p>
                               <p>Bron: https://standaarden.overheid.nl/tooi/doc/tooi-ontologie/#klasse-openbaar-lichaam-uit-gemeenschappelijke-regeling</p>
                            
-                     </td></tr><tr><th>Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
+                     </td></tr><tr><th scope="row">Herkomst definitie</th><td> </td></tr><tr><th scope="row">Datum opname</th><td> </td></tr><tr><th scope="row">Unieke aanduiding</th><td> </td></tr><tr><th scope="row">Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
                <div class="header-wrapper"><h5 id="overzicht-relaties-2">Overzicht relaties  </h5><a class="self-link" href="#global_class_CIMORG_Openbaarlichaamuitgemeenschappelijkeregeling" aria-label="Permalink for this Section"></a></div>
-                  
-                  <table style="width: 100%;"><colgroup style="width: 50%;"></colgroup><colgroup style="width: 50%;"></colgroup><tbody><tr><th>Rol naam met kardinaliteiten</th><th>Definitie</th></tr><tr><td>
+                  <table style="width: 100%;"><colgroup style="width: 50%;"></colgroup><colgroup style="width: 50%;"></colgroup><tbody><tr><th scope="col">Relatienaam met kardinaliteiten</th><th scope="col">Definitie</th></tr><tr><td>
                            Openbaar lichaam uit gemeenschappelijke regeling
                            is specialisatie van
                            
@@ -605,18 +604,18 @@ Een bestuursorgaan is volgens de definitie van artikel 1:1 lid 1 Awb een: "orgaa
                            <p>Bron: <a href="https://standaarden.overheid.nl/tooi/doc/tooi-ontologie/#klasse-regionaal-openbaar-lichaam" shape="rect">https://standaarden.overheid.nl/tooi/doc/tooi-ontologie/#klasse-regionaal-openbaar-lichaam</a>
                            </p>
                         </td></tr></tbody></table>
+                  
                
             </section>
             <section id="global_class_CIMORG_Gemeente"><div class="header-wrapper"><h4 id="x5-2-7-gemeente"><bdi class="secno">5.2.7 </bdi>   Gemeente</h4><a class="self-link" href="#global_class_CIMORG_Gemeente" aria-label="Permalink for Section 5.2.7"></a></div>
-               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Gemeente</td></tr><tr><th>Definitie</th><td>
+               <table style="width: 100%;" class="overview OVERVIEW-OBJECTTYPE"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>Gemeente</td></tr><tr><th scope="row">Herkomst</th><td> </td></tr><tr><th scope="row">Definitie</th><td>
                         
                               <p>Een gemeente is het kleinste territoriaal openbaar lichaam met algemene bevoegdheden.</p>
                               <p>Bron: https://standaarden.overheid.nl/tooi/doc/tooi-ontologie/#klasse-gemeente</p>
                            
-                     </td></tr><tr><th>Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
+                     </td></tr><tr><th scope="row">Herkomst definitie</th><td> </td></tr><tr><th scope="row">Datum opname</th><td> </td></tr><tr><th scope="row">Unieke aanduiding</th><td> </td></tr><tr><th scope="row">Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
                <div class="header-wrapper"><h5 id="overzicht-relaties-3">Overzicht relaties  </h5><a class="self-link" href="#global_class_CIMORG_Gemeente" aria-label="Permalink for this Section"></a></div>
-                  
-                  <table style="width: 100%;"><colgroup style="width: 50%;"></colgroup><colgroup style="width: 50%;"></colgroup><tbody><tr><th>Rol naam met kardinaliteiten</th><th>Definitie</th></tr><tr><td>
+                  <table style="width: 100%;"><colgroup style="width: 50%;"></colgroup><colgroup style="width: 50%;"></colgroup><tbody><tr><th scope="col">Relatienaam met kardinaliteiten</th><th scope="col">Definitie</th></tr><tr><td>
                            Gemeente
                            [ 1 ]
                            
@@ -637,23 +636,23 @@ Een bestuursorgaan is volgens de definitie van artikel 1:1 lid 1 Awb een: "orgaa
                            <p>Bron: <a href="https://standaarden.overheid.nl/tooi/doc/tooi-ontologie/#klasse-regionaal-openbaar-lichaam" shape="rect">https://standaarden.overheid.nl/tooi/doc/tooi-ontologie/#klasse-regionaal-openbaar-lichaam</a>
                            </p>
                         </td></tr></tbody></table>
+                  
                
             </section>
             <section id="global_class_CIMORG_Overheidsorganisatie"><div class="header-wrapper"><h4 id="x5-2-8-overheidsorganisatie"><bdi class="secno">5.2.8 </bdi>   Overheidsorganisatie</h4><a class="self-link" href="#global_class_CIMORG_Overheidsorganisatie" aria-label="Permalink for Section 5.2.8"></a></div>
-               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Overheidsorganisatie</td></tr><tr><th>Definitie</th><td>
+               <table style="width: 100%;" class="overview OVERVIEW-OBJECTTYPE"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>Overheidsorganisatie</td></tr><tr><th scope="row">Herkomst</th><td> </td></tr><tr><th scope="row">Definitie</th><td>
                         
                               <p>Een organisatie die namens de overheid taken uitvoert en onder het gezag en toezicht van de overheid valt.</p>
                               <p>bron: <a href="https://standaarden.overheid.nl/tooi/doc/tooi-ontologie/#klasse-overheidsorganisatie" shape="rect">https://standaarden.overheid.nl/tooi/doc/tooi-ontologie/#klasse-overheidsorganisatie</a>
                               </p>
                            
-                     </td></tr><tr><th>Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
+                     </td></tr><tr><th scope="row">Herkomst definitie</th><td> </td></tr><tr><th scope="row">Datum opname</th><td> </td></tr><tr><th scope="row">Unieke aanduiding</th><td> </td></tr><tr><th scope="row">Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
                <div class="header-wrapper"><h5 id="overzicht-relaties-4">Overzicht relaties  </h5><a class="self-link" href="#global_class_CIMORG_Overheidsorganisatie" aria-label="Permalink for this Section"></a></div>
-                  
-                  <table style="width: 100%;"><colgroup style="width: 50%;"></colgroup><colgroup style="width: 50%;"></colgroup><tbody><tr><th>Rol naam met kardinaliteiten</th><th>Definitie</th></tr><tr><td>
+                  <table style="width: 100%;"><colgroup style="width: 50%;"></colgroup><colgroup style="width: 50%;"></colgroup><tbody><tr><th scope="col">Relatienaam met kardinaliteiten</th><th scope="col">Definitie</th></tr><tr><td>
                            Overheidsorganisatie
                            [ 1 ]
                            
-                              <a class="link" href="#detail_association_CIMORG_Overheidsorganisatie_heeft">heeft: heeft</a>
+                              <a class="link" href="#detail_association_CIMORG_Overheidsorganisatie_bestuursorgaan">bestuursorgaan</a>
                            
                            
                               <a class="link" href="#global_class_CIMORG_Bestuursorgaan">Bestuursorgaan</a>
@@ -676,19 +675,19 @@ Een bestuursorgaan is volgens de definitie van artikel 1:1 lid 1 Awb een: "orgaa
                               <a class="link" href="#global_class_CIMORG_Organisatie">Organisatie</a>
                            
                         </td><td></td></tr></tbody></table>
+                  
                
             </section>
             <section id="global_class_CIMORG_Regionaalopenbaarlichaam"><div class="header-wrapper"><h4 id="x5-2-9-regionaal-openbaar-lichaam"><bdi class="secno">5.2.9 </bdi>   Regionaal openbaar lichaam</h4><a class="self-link" href="#global_class_CIMORG_Regionaalopenbaarlichaam" aria-label="Permalink for Section 5.2.9"></a></div>
-               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Regionaal openbaar lichaam</td></tr><tr><th>Definitie</th><td>
+               <table style="width: 100%;" class="overview OVERVIEW-OBJECTTYPE"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>Regionaal openbaar lichaam</td></tr><tr><th scope="row">Herkomst</th><td> </td></tr><tr><th scope="row">Definitie</th><td>
                         
                               <p>Een regionaal openbaar lichaam is, in de bestuurlijke indeling van het Koninkrijk der Nederlanden, een overheid die wettelijk bepaalde taken uitvoert binnen een bepaald ruimtelijk gebied.</p>
                               <p>Bron: <a href="https://standaarden.overheid.nl/tooi/doc/tooi-ontologie/#klasse-regionaal-openbaar-lichaam" shape="rect">https://standaarden.overheid.nl/tooi/doc/tooi-ontologie/#klasse-regionaal-openbaar-lichaam</a>
                               </p>
                            
-                     </td></tr><tr><th>Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
+                     </td></tr><tr><th scope="row">Herkomst definitie</th><td> </td></tr><tr><th scope="row">Datum opname</th><td> </td></tr><tr><th scope="row">Unieke aanduiding</th><td> </td></tr><tr><th scope="row">Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
                <div class="header-wrapper"><h5 id="overzicht-relaties-5">Overzicht relaties  </h5><a class="self-link" href="#global_class_CIMORG_Regionaalopenbaarlichaam" aria-label="Permalink for this Section"></a></div>
-                  
-                  <table style="width: 100%;"><colgroup style="width: 50%;"></colgroup><colgroup style="width: 50%;"></colgroup><tbody><tr><th>Rol naam met kardinaliteiten</th><th>Definitie</th></tr><tr><td>
+                  <table style="width: 100%;"><colgroup style="width: 50%;"></colgroup><colgroup style="width: 50%;"></colgroup><tbody><tr><th scope="col">Relatienaam met kardinaliteiten</th><th scope="col">Definitie</th></tr><tr><td>
                            Regionaal openbaar lichaam
                            [ 1 ]
                            
@@ -709,39 +708,39 @@ Een bestuursorgaan is volgens de definitie van artikel 1:1 lid 1 Awb een: "orgaa
                            <p>bron: <a href="https://standaarden.overheid.nl/tooi/doc/tooi-ontologie/#klasse-overheidsorganisatie" shape="rect">https://standaarden.overheid.nl/tooi/doc/tooi-ontologie/#klasse-overheidsorganisatie</a>
                            </p>
                         </td></tr></tbody></table>
+                  
                
             </section>
             <section id="global_class_CIMORG_Behandeldienst"><div class="header-wrapper"><h4 id="x5-2-10-behandeldienst"><bdi class="secno">5.2.10 </bdi>   Behandeldienst</h4><a class="self-link" href="#global_class_CIMORG_Behandeldienst" aria-label="Permalink for Section 5.2.10"></a></div>
-               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Behandeldienst</td></tr><tr><th>Definitie</th><td>
+               <table style="width: 100%;" class="overview OVERVIEW-OBJECTTYPE"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>Behandeldienst</td></tr><tr><th scope="row">Herkomst</th><td> </td></tr><tr><th scope="row">Definitie</th><td>
                         
                               <p>Een externe partij die namens een bevoegd gezag aanvragen behandelt, zoals een omgevingsdienst.</p>
                            
-                     </td></tr><tr><th>Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
+                     </td></tr><tr><th scope="row">Herkomst definitie</th><td> </td></tr><tr><th scope="row">Datum opname</th><td> </td></tr><tr><th scope="row">Unieke aanduiding</th><td> </td></tr><tr><th scope="row">Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
                <div class="header-wrapper"><h5 id="overzicht-relaties-6">Overzicht relaties  </h5><a class="self-link" href="#global_class_CIMORG_Behandeldienst" aria-label="Permalink for this Section"></a></div>
-                  
-                  <table style="width: 100%;"><colgroup style="width: 50%;"></colgroup><colgroup style="width: 50%;"></colgroup><tbody><tr><th>Rol naam met kardinaliteiten</th><th>Definitie</th></tr><tr><td>
+                  <table style="width: 100%;"><colgroup style="width: 50%;"></colgroup><colgroup style="width: 50%;"></colgroup><tbody><tr><th scope="col">Relatienaam met kardinaliteiten</th><th scope="col">Definitie</th></tr><tr><td>
                            Behandeldienst
                            is specialisatie van
                            
                               <a class="link" href="#global_class_CIMORG_Organisatie">Organisatie</a>
                            
                         </td><td></td></tr></tbody></table>
+                  
                
             </section>
             <section id="global_class_CIMORG_Waterschap"><div class="header-wrapper"><h4 id="x5-2-11-waterschap"><bdi class="secno">5.2.11 </bdi>   Waterschap</h4><a class="self-link" href="#global_class_CIMORG_Waterschap" aria-label="Permalink for Section 5.2.11"></a></div>
-               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Waterschap</td></tr><tr><th>Definitie</th><td>
+               <table style="width: 100%;" class="overview OVERVIEW-OBJECTTYPE"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>Waterschap</td></tr><tr><th scope="row">Herkomst</th><td> </td></tr><tr><th scope="row">Definitie</th><td>
                         
                               <p>Een waterschap is een territoriaal openbaar lichaam dat uitsluitend bevoegd is met betrekking tot de waterhuishouding.</p>
                               <p>Bron: https://standaarden.overheid.nl/tooi/doc/tooi-ontologie/#klasse-waterschap</p>
                            
-                     </td></tr><tr><th>Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
+                     </td></tr><tr><th scope="row">Herkomst definitie</th><td> </td></tr><tr><th scope="row">Datum opname</th><td> </td></tr><tr><th scope="row">Unieke aanduiding</th><td> </td></tr><tr><th scope="row">Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
                <div class="header-wrapper"><h5 id="overzicht-relaties-7">Overzicht relaties  </h5><a class="self-link" href="#global_class_CIMORG_Waterschap" aria-label="Permalink for this Section"></a></div>
-                  
-                  <table style="width: 100%;"><colgroup style="width: 50%;"></colgroup><colgroup style="width: 50%;"></colgroup><tbody><tr><th>Rol naam met kardinaliteiten</th><th>Definitie</th></tr><tr><td>
+                  <table style="width: 100%;"><colgroup style="width: 50%;"></colgroup><colgroup style="width: 50%;"></colgroup><tbody><tr><th scope="col">Relatienaam met kardinaliteiten</th><th scope="col">Definitie</th></tr><tr><td>
                            Waterschap
                            [ 1 ]
                            
-                              <a class="link sec-ref" href="#detail_association_CIMORG_Waterschap"><bdi class="secno">5.3.1.7.1 </bdi>Relatiesoort details  <span>Waterschap</span> -noname-</a>
+                              <a class="link" href="#detail_association_CIMORG_Waterschap_neemtdeelaan">neemt deel aan: neemt deel aan</a>
                            
                            
                               <a class="link" href="#global_class_CIMORG_Openbaarlichaamuitgemeenschappelijkeregeling">Openbaar lichaam uit gemeenschappelijke regeling</a>
@@ -758,18 +757,18 @@ Een bestuursorgaan is volgens de definitie van artikel 1:1 lid 1 Awb een: "orgaa
                            <p>Bron: <a href="https://standaarden.overheid.nl/tooi/doc/tooi-ontologie/#klasse-regionaal-openbaar-lichaam" shape="rect">https://standaarden.overheid.nl/tooi/doc/tooi-ontologie/#klasse-regionaal-openbaar-lichaam</a>
                            </p>
                         </td></tr></tbody></table>
+                  
                
             </section>
             <section id="global_class_CIMORG_Provincie"><div class="header-wrapper"><h4 id="x5-2-12-provincie"><bdi class="secno">5.2.12 </bdi>   Provincie</h4><a class="self-link" href="#global_class_CIMORG_Provincie" aria-label="Permalink for Section 5.2.12"></a></div>
-               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Provincie</td></tr><tr><th>Definitie</th><td>
+               <table style="width: 100%;" class="overview OVERVIEW-OBJECTTYPE"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>Provincie</td></tr><tr><th scope="row">Herkomst</th><td> </td></tr><tr><th scope="row">Definitie</th><td>
                         
                               <p>Een provincie is een territoriaal openbaar lichaam met algemene bevoegdheden tussen gemeente en Rijk.</p>
                               <p>Bron: https://standaarden.overheid.nl/tooi/doc/tooi-ontologie/#klasse-provincie</p>
                            
-                     </td></tr><tr><th>Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
+                     </td></tr><tr><th scope="row">Herkomst definitie</th><td> </td></tr><tr><th scope="row">Datum opname</th><td> </td></tr><tr><th scope="row">Unieke aanduiding</th><td> </td></tr><tr><th scope="row">Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
                <div class="header-wrapper"><h5 id="overzicht-relaties-8">Overzicht relaties  </h5><a class="self-link" href="#global_class_CIMORG_Provincie" aria-label="Permalink for this Section"></a></div>
-                  
-                  <table style="width: 100%;"><colgroup style="width: 50%;"></colgroup><colgroup style="width: 50%;"></colgroup><tbody><tr><th>Rol naam met kardinaliteiten</th><th>Definitie</th></tr><tr><td>
+                  <table style="width: 100%;"><colgroup style="width: 50%;"></colgroup><colgroup style="width: 50%;"></colgroup><tbody><tr><th scope="col">Relatienaam met kardinaliteiten</th><th scope="col">Definitie</th></tr><tr><td>
                            Provincie
                            [ 1 ]
                            
@@ -790,12 +789,13 @@ Een bestuursorgaan is volgens de definitie van artikel 1:1 lid 1 Awb een: "orgaa
                            <p>Bron: <a href="https://standaarden.overheid.nl/tooi/doc/tooi-ontologie/#klasse-regionaal-openbaar-lichaam" shape="rect">https://standaarden.overheid.nl/tooi/doc/tooi-ontologie/#klasse-regionaal-openbaar-lichaam</a>
                            </p>
                         </td></tr></tbody></table>
+                  
                
             </section>
             <section id="global_class_CIMORG_Organisatie"><div class="header-wrapper"><h4 id="x5-2-13-organisatie"><bdi class="secno">5.2.13 </bdi>   Organisatie</h4><a class="self-link" href="#global_class_CIMORG_Organisatie" aria-label="Permalink for Section 5.2.13"></a></div>
-               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Organisatie</td></tr><tr><th>Unieke aanduiding</th><td>OIN</td></tr><tr><th>Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
+               <table style="width: 100%;" class="overview OVERVIEW-OBJECTTYPE"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>Organisatie</td></tr><tr><th scope="row">Herkomst</th><td> </td></tr><tr><th scope="row">Definitie</th><td> </td></tr><tr><th scope="row">Herkomst definitie</th><td> </td></tr><tr><th scope="row">Datum opname</th><td> </td></tr><tr><th scope="row">Unieke aanduiding</th><td>OIN</td></tr><tr><th scope="row">Indicatie abstract object</th><td>Nee</td></tr></tbody></table>
                <div class="header-wrapper"><h5 id="overzicht-attributen-2">Overzicht attributen  </h5><a class="self-link" href="#global_class_CIMORG_Organisatie" aria-label="Permalink for this Section"></a></div>
-                  <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 50%;"></colgroup><colgroup style="width: 10%;"></colgroup><colgroup style="width: 10%;"></colgroup><tbody><tr><th>Attribuutnaam</th><th>Definitie</th><th>Formaat</th><th>Card</th></tr><tr><td>
+                  <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 50%;"></colgroup><colgroup style="width: 10%;"></colgroup><colgroup style="width: 10%;"></colgroup><tbody><tr><th scope="col">Attribuutnaam</th><th scope="col">Definitie</th><th scope="col">Formaat</th><th scope="col">Card</th></tr><tr><td>
                            <a class="link" href="#detail_attribute_CIMORG_Organisatie_OIN">OIN</a>
                         </td><td></td><td>
                            <a class="external-link" href="https://docs.geostandaarden.nl/mim/vv-st-mim-20200225/#primitive-datatypes">Character­String</a>
@@ -806,92 +806,92 @@ Een bestuursorgaan is volgens de definitie van artikel 1:1 lid 1 Awb een: "orgaa
             <section id="objecttype-details"><div class="header-wrapper"><h4 id="x5-3-1-objecttype-details"><bdi class="secno">5.3.1 </bdi>Objecttype details  </h4><a class="self-link" href="#objecttype-details" aria-label="Permalink for Section 5.3.1"></a></div>
                <section id="detail_class_CIMORG_RegistratieveRuimte"><div class="header-wrapper"><h5 id="x5-3-1-1-registratieve-ruimte"><bdi class="secno">5.3.1.1 </bdi>   Registratieve Ruimte</h5><a class="self-link" href="#detail_class_CIMORG_RegistratieveRuimte" aria-label="Permalink for Section 5.3.1.1"></a></div>
                   <section id="detail_attribute_CIMORG_RegistratieveRuimte_geometrie"><div class="header-wrapper"><h6 id="x5-3-1-1-1-attribuutsoort-details-registratieve-ruimte-geometrie"><bdi class="secno">5.3.1.1.1 </bdi>Attribuutsoort details  <a href="#global_class_CIMORG_RegistratieveRuimte">Registratieve Ruimte</a> geometrie</h6><a class="self-link" href="#detail_attribute_CIMORG_RegistratieveRuimte_geometrie" aria-label="Permalink for Section 5.3.1.1.1"></a></div>
-                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>geometrie</td></tr><tr><th>Formaat</th><td>
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>geometrie</td></tr><tr><th scope="row">Herkomst</th><td> </td></tr><tr><th scope="row">Definitie</th><td> </td></tr><tr><th scope="row">Herkomst definitie</th><td> </td></tr><tr><th scope="row">Datum opname</th><td> </td></tr><tr><th scope="row">Formaat</th><td>
                               GM_Object
-                           </td></tr><tr><th>Kardinaliteit</th><td>1</td></tr><tr><th>Indicatie classificerend</th><td>Nee</td></tr><tr><th>Mogelijk geen waarde</th><td>Nee</td></tr><tr><th>Indicatie identificerend</th><td>Nee</td></tr></tbody></table>
+                           </td></tr><tr><th scope="row">Kardinaliteit</th><td>1</td></tr><tr><th scope="row">Indicatie authentiek</th><td>  </td></tr><tr><th scope="row">Indicatie afleidbaar</th><td> </td></tr><tr><th scope="row">Indicatie classificerend</th><td>Nee</td></tr><tr><th scope="row">Mogelijk geen waarde</th><td>Nee</td></tr><tr><th scope="row">Indicatie identificerend</th><td>Nee</td></tr></tbody></table>
                   </section>
                </section>
                <section id="detail_class_CIMORG_Bevoegdgezag"><div class="header-wrapper"><h5 id="x5-3-1-2-bevoegd-gezag"><bdi class="secno">5.3.1.2 </bdi>   Bevoegd gezag</h5><a class="self-link" href="#detail_class_CIMORG_Bevoegdgezag" aria-label="Permalink for Section 5.3.1.2"></a></div>
                   <section id="detail_attribute_CIMORG_Bevoegdgezag_bgcode"><div class="header-wrapper"><h6 id="x5-3-1-2-1-attribuutsoort-details-bevoegd-gezag-bg-code"><bdi class="secno">5.3.1.2.1 </bdi>Attribuutsoort details  <a href="#global_class_CIMORG_Bevoegdgezag">Bevoegd gezag</a> bg-code</h6><a class="self-link" href="#detail_attribute_CIMORG_Bevoegdgezag_bgcode" aria-label="Permalink for Section 5.3.1.2.1"></a></div>
-                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>bg-code</td></tr><tr><th>Formaat</th><td>CHARACTERSTRING</td></tr><tr><th>Patroon</th><td>
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>bg-code</td></tr><tr><th scope="row">Herkomst</th><td> </td></tr><tr><th scope="row">Definitie</th><td> </td></tr><tr><th scope="row">Herkomst definitie</th><td> </td></tr><tr><th scope="row">Datum opname</th><td> </td></tr><tr><th scope="row">Formaat</th><td>CHARACTERSTRING</td></tr><tr><th scope="row">Patroon</th><td>
                               De verzameling van waarden die gegevens van dit attribuutsoort kunnen hebben, dat wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur.
-                           </td></tr><tr><th>Kardinaliteit</th><td>1</td></tr><tr><th>Toelichting</th><td>
+                           </td></tr><tr><th scope="row">Kardinaliteit</th><td>1</td></tr><tr><th scope="row">Indicatie authentiek</th><td>  </td></tr><tr><th scope="row">Toelichting</th><td>
                               Een inhoudelijke toelichting op de toepassing van het informatie-element.
-                           </td></tr><tr><th>Indicatie classificerend</th><td>Nee</td></tr><tr><th>Mogelijk geen waarde</th><td>Nee</td></tr><tr><th>Indicatie identificerend</th><td>Ja</td></tr></tbody></table>
+                           </td></tr><tr><th scope="row">Indicatie afleidbaar</th><td> </td></tr><tr><th scope="row">Indicatie classificerend</th><td>Nee</td></tr><tr><th scope="row">Mogelijk geen waarde</th><td>Nee</td></tr><tr><th scope="row">Indicatie identificerend</th><td>Ja</td></tr></tbody></table>
                   </section>
                   <section id="detail_association_CIMORG_Bevoegdgezag_besteedtuitaan"><div class="header-wrapper"><h6 id="x5-3-1-2-2-relatiesoort-details-bevoegd-gezag-besteedt-uit-aan"><bdi class="secno">5.3.1.2.2 </bdi>Relatiesoort details  <a href="#global_class_CIMORG_Bevoegdgezag">Bevoegd gezag</a> besteedt uit aan</h6><a class="self-link" href="#detail_association_CIMORG_Bevoegdgezag_besteedtuitaan" aria-label="Permalink for Section 5.3.1.2.2"></a></div>
-                     
-                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>besteedt uit aan</td></tr><tr><th>Gerelateerd objecttype</th><td>
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>besteedt uit aan</td></tr><tr><th scope="row">Herkomst</th><td> </td></tr><tr><th scope="row">Definitie</th><td> </td></tr><tr><th scope="row">Herkomst definitie</th><td> </td></tr><tr><th scope="row">Datum opname</th><td> </td></tr><tr><th scope="row">Gerelateerd objecttype</th><td>
                               <a class="link" href="#global_class_CIMORG_Behandeldienst">Behandeldienst</a>
-                           </td></tr><tr><th>Kardinaliteit</th><td>0 .. *</td></tr></tbody></table>
+                           </td></tr><tr><th scope="row">Kardinaliteit</th><td>0 .. *</td></tr><tr><th scope="row">Indicatie kardinaliteit bron</th><td>0 .. *</td></tr><tr><th scope="row">Indicatie authentiek</th><td>  </td></tr><tr><th scope="row">Mogelijk geen waarde</th><td> </td></tr></tbody></table>
+                     
                   </section>
                </section>
                
                <section id="detail_class_CIMORG_Bestuursorgaan"><div class="header-wrapper"><h5 id="x5-3-1-3-bestuursorgaan"><bdi class="secno">5.3.1.3 </bdi>   Bestuursorgaan</h5><a class="self-link" href="#detail_class_CIMORG_Bestuursorgaan" aria-label="Permalink for Section 5.3.1.3"></a></div>
                   <section id="detail_attribute_CIMORG_Bestuursorgaan_bestuurslaag"><div class="header-wrapper"><h6 id="x5-3-1-3-1-attribuutsoort-details-bestuursorgaan-bestuurslaag"><bdi class="secno">5.3.1.3.1 </bdi>Attribuutsoort details  <a href="#global_class_CIMORG_Bestuursorgaan">Bestuursorgaan</a> bestuurslaag</h6><a class="self-link" href="#detail_attribute_CIMORG_Bestuursorgaan_bestuurslaag" aria-label="Permalink for Section 5.3.1.3.1"></a></div>
-                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>bestuurslaag</td></tr><tr><th>Formaat</th><td>
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>bestuurslaag</td></tr><tr><th scope="row">Herkomst</th><td> </td></tr><tr><th scope="row">Definitie</th><td> </td></tr><tr><th scope="row">Herkomst definitie</th><td> </td></tr><tr><th scope="row">Datum opname</th><td> </td></tr><tr><th scope="row">Formaat</th><td>
                               <a class="external-link" href="https://geonovum.github.io/dso-cim-tr/#global_class_CIMTR_Bestuurslaag">Bestuurslaag</a>
-                           </td></tr><tr><th>Patroon</th><td>
+                           </td></tr><tr><th scope="row">Patroon</th><td>
                               De verzameling van waarden die gegevens van dit attribuutsoort kunnen hebben, dat wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur.
-                           </td></tr><tr><th>Kardinaliteit</th><td>1</td></tr><tr><th>Toelichting</th><td>
+                           </td></tr><tr><th scope="row">Kardinaliteit</th><td>1</td></tr><tr><th scope="row">Indicatie authentiek</th><td>  </td></tr><tr><th scope="row">Toelichting</th><td>
                               Een inhoudelijke toelichting op de toepassing van het informatie-element.
-                           </td></tr><tr><th>Indicatie classificerend</th><td>Nee</td></tr><tr><th>Mogelijk geen waarde</th><td>Nee</td></tr><tr><th>Indicatie identificerend</th><td>Nee</td></tr></tbody></table>
+                           </td></tr><tr><th scope="row">Indicatie afleidbaar</th><td> </td></tr><tr><th scope="row">Indicatie classificerend</th><td>Nee</td></tr><tr><th scope="row">Mogelijk geen waarde</th><td>Nee</td></tr><tr><th scope="row">Indicatie identificerend</th><td>Nee</td></tr></tbody></table>
                   </section>
                </section>
                
                
                <section id="detail_class_CIMORG_Gemeente"><div class="header-wrapper"><h5 id="x5-3-1-4-gemeente"><bdi class="secno">5.3.1.4 </bdi>   Gemeente</h5><a class="self-link" href="#detail_class_CIMORG_Gemeente" aria-label="Permalink for Section 5.3.1.4"></a></div>
                   <section id="detail_association_CIMORG_Gemeente_neemtdeelaan"><div class="header-wrapper"><h6 id="x5-3-1-4-1-relatiesoort-details-gemeente-neemt-deel-aan"><bdi class="secno">5.3.1.4.1 </bdi>Relatiesoort details  <a href="#global_class_CIMORG_Gemeente">Gemeente</a> neemt deel aan</h6><a class="self-link" href="#detail_association_CIMORG_Gemeente_neemtdeelaan" aria-label="Permalink for Section 5.3.1.4.1"></a></div>
-                     
-                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>neemt deel aan</td></tr><tr><th>Gerelateerd objecttype</th><td>
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>neemt deel aan</td></tr><tr><th scope="row">Herkomst</th><td> </td></tr><tr><th scope="row">Definitie</th><td> </td></tr><tr><th scope="row">Herkomst definitie</th><td> </td></tr><tr><th scope="row">Datum opname</th><td> </td></tr><tr><th scope="row">Gerelateerd objecttype</th><td>
                               <a class="link" href="#global_class_CIMORG_Openbaarlichaamuitgemeenschappelijkeregeling">Openbaar lichaam uit gemeenschappelijke regeling</a>
-                           </td></tr><tr><th>Kardinaliteit</th><td>1</td></tr></tbody></table>
+                           </td></tr><tr><th scope="row">Kardinaliteit</th><td>1</td></tr><tr><th scope="row">Indicatie kardinaliteit bron</th><td>1</td></tr><tr><th scope="row">Indicatie authentiek</th><td>  </td></tr><tr><th scope="row">Mogelijk geen waarde</th><td>Nee</td></tr></tbody></table>
+                     
                   </section>
                </section>
                <section id="detail_class_CIMORG_Overheidsorganisatie"><div class="header-wrapper"><h5 id="x5-3-1-5-overheidsorganisatie"><bdi class="secno">5.3.1.5 </bdi>   Overheidsorganisatie</h5><a class="self-link" href="#detail_class_CIMORG_Overheidsorganisatie" aria-label="Permalink for Section 5.3.1.5"></a></div>
-                  <section id="detail_association_CIMORG_Overheidsorganisatie_heeft"><div class="header-wrapper"><h6 id="x5-3-1-5-1-relatiesoort-details-overheidsorganisatie-heeft"><bdi class="secno">5.3.1.5.1 </bdi>Relatiesoort details  <a href="#global_class_CIMORG_Overheidsorganisatie">Overheidsorganisatie</a> heeft</h6><a class="self-link" href="#detail_association_CIMORG_Overheidsorganisatie_heeft" aria-label="Permalink for Section 5.3.1.5.1"></a></div>
-                     
-                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>heeft</td></tr><tr><th>Gerelateerd objecttype</th><td>
+                  <section id="detail_association_CIMORG_Overheidsorganisatie_bestuursorgaan"><div class="header-wrapper"><h6 id="x5-3-1-5-1-relatiesoort-details-overheidsorganisatie-bestuursorgaan"><bdi class="secno">5.3.1.5.1 </bdi>Relatiesoort details  <a href="#global_class_CIMORG_Overheidsorganisatie">Overheidsorganisatie</a> bestuursorgaan</h6><a class="self-link" href="#detail_association_CIMORG_Overheidsorganisatie_bestuursorgaan" aria-label="Permalink for Section 5.3.1.5.1"></a></div>
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>bestuursorgaan</td></tr><tr><th scope="row">Herkomst</th><td> </td></tr><tr><th scope="row">Definitie</th><td> </td></tr><tr><th scope="row">Herkomst definitie</th><td> </td></tr><tr><th scope="row">Datum opname</th><td> </td></tr><tr><th scope="row">Gerelateerd objecttype</th><td>
                               <a class="link" href="#global_class_CIMORG_Bestuursorgaan">Bestuursorgaan</a>
-                           </td></tr><tr><th>Kardinaliteit</th><td>1</td></tr></tbody></table>
+                           </td></tr><tr><th scope="row">Kardinaliteit</th><td>1</td></tr><tr><th scope="row">Indicatie kardinaliteit bron</th><td>1</td></tr><tr><th scope="row">Indicatie authentiek</th><td>  </td></tr><tr><th scope="row">Mogelijk geen waarde</th><td>Nee</td></tr></tbody></table>
+                     
                   </section>
                   <section id="detail_association_CIMORG_Overheidsorganisatie_ambtsgebied"><div class="header-wrapper"><h6 id="x5-3-1-5-2-relatiesoort-details-overheidsorganisatie-ambtsgebied"><bdi class="secno">5.3.1.5.2 </bdi>Relatiesoort details  <a href="#global_class_CIMORG_Overheidsorganisatie">Overheidsorganisatie</a> ambtsgebied</h6><a class="self-link" href="#detail_association_CIMORG_Overheidsorganisatie_ambtsgebied" aria-label="Permalink for Section 5.3.1.5.2"></a></div>
-                     
-                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>ambtsgebied</td></tr><tr><th>Gerelateerd objecttype</th><td>
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>ambtsgebied</td></tr><tr><th scope="row">Herkomst</th><td> </td></tr><tr><th scope="row">Definitie</th><td> </td></tr><tr><th scope="row">Herkomst definitie</th><td> </td></tr><tr><th scope="row">Datum opname</th><td> </td></tr><tr><th scope="row">Gerelateerd objecttype</th><td>
                               <a class="link" href="#global_class_CIMORG_Ambtsgebied">Ambtsgebied</a>
-                           </td></tr><tr><th>Kardinaliteit</th><td>0 .. *</td></tr></tbody></table>
+                           </td></tr><tr><th scope="row">Kardinaliteit</th><td>0 .. *</td></tr><tr><th scope="row">Indicatie kardinaliteit bron</th><td>0 .. 1</td></tr><tr><th scope="row">Indicatie authentiek</th><td>  </td></tr><tr><th scope="row">Mogelijk geen waarde</th><td>Nee</td></tr></tbody></table>
+                     
                   </section>
                </section>
                <section id="detail_class_CIMORG_Regionaalopenbaarlichaam"><div class="header-wrapper"><h5 id="x5-3-1-6-regionaal-openbaar-lichaam"><bdi class="secno">5.3.1.6 </bdi>   Regionaal openbaar lichaam</h5><a class="self-link" href="#detail_class_CIMORG_Regionaalopenbaarlichaam" aria-label="Permalink for Section 5.3.1.6"></a></div>
                   <section id="detail_association_CIMORG_Regionaalopenbaarlichaam_bestuursgebied"><div class="header-wrapper"><h6 id="x5-3-1-6-1-relatiesoort-details-regionaal-openbaar-lichaam-bestuursgebied"><bdi class="secno">5.3.1.6.1 </bdi>Relatiesoort details  <a href="#global_class_CIMORG_Regionaalopenbaarlichaam">Regionaal openbaar lichaam</a> bestuursgebied</h6><a class="self-link" href="#detail_association_CIMORG_Regionaalopenbaarlichaam_bestuursgebied" aria-label="Permalink for Section 5.3.1.6.1"></a></div>
-                     
-                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>bestuursgebied</td></tr><tr><th>Gerelateerd objecttype</th><td>
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>bestuursgebied</td></tr><tr><th scope="row">Herkomst</th><td> </td></tr><tr><th scope="row">Definitie</th><td> </td></tr><tr><th scope="row">Herkomst definitie</th><td> </td></tr><tr><th scope="row">Datum opname</th><td> </td></tr><tr><th scope="row">Gerelateerd objecttype</th><td>
                               <a class="link" href="#global_class_CIMORG_RegistratieveRuimte">Registratieve Ruimte</a>
-                           </td></tr><tr><th>Kardinaliteit</th><td>1</td></tr></tbody></table>
+                           </td></tr><tr><th scope="row">Kardinaliteit</th><td>1</td></tr><tr><th scope="row">Indicatie kardinaliteit bron</th><td>1</td></tr><tr><th scope="row">Indicatie authentiek</th><td>  </td></tr><tr><th scope="row">Mogelijk geen waarde</th><td>Nee</td></tr></tbody></table>
+                     
                   </section>
                </section>
                
                <section id="detail_class_CIMORG_Waterschap"><div class="header-wrapper"><h5 id="x5-3-1-7-waterschap"><bdi class="secno">5.3.1.7 </bdi>   Waterschap</h5><a class="self-link" href="#detail_class_CIMORG_Waterschap" aria-label="Permalink for Section 5.3.1.7"></a></div>
-                  <section id="detail_association_CIMORG_Waterschap"><div class="header-wrapper"><h6 id="x5-3-1-7-1-relatiesoort-details-waterschap-noname"><bdi class="secno">5.3.1.7.1 </bdi>Relatiesoort details  <a href="#global_class_CIMORG_Waterschap">Waterschap</a> -noname-</h6><a class="self-link" href="#detail_association_CIMORG_Waterschap" aria-label="Permalink for Section 5.3.1.7.1"></a></div>
-                     
-                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>-noname-</td></tr><tr><th>Gerelateerd objecttype</th><td>
+                  <section id="detail_association_CIMORG_Waterschap_neemtdeelaan"><div class="header-wrapper"><h6 id="x5-3-1-7-1-relatiesoort-details-waterschap-neemt-deel-aan"><bdi class="secno">5.3.1.7.1 </bdi>Relatiesoort details  <a href="#global_class_CIMORG_Waterschap">Waterschap</a> neemt deel aan</h6><a class="self-link" href="#detail_association_CIMORG_Waterschap_neemtdeelaan" aria-label="Permalink for Section 5.3.1.7.1"></a></div>
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>neemt deel aan</td></tr><tr><th scope="row">Herkomst</th><td> </td></tr><tr><th scope="row">Definitie</th><td> </td></tr><tr><th scope="row">Herkomst definitie</th><td> </td></tr><tr><th scope="row">Datum opname</th><td> </td></tr><tr><th scope="row">Gerelateerd objecttype</th><td>
                               <a class="link" href="#global_class_CIMORG_Openbaarlichaamuitgemeenschappelijkeregeling">Openbaar lichaam uit gemeenschappelijke regeling</a>
-                           </td></tr><tr><th>Kardinaliteit</th><td>1</td></tr></tbody></table>
+                           </td></tr><tr><th scope="row">Kardinaliteit</th><td>1</td></tr><tr><th scope="row">Indicatie kardinaliteit bron</th><td>1</td></tr><tr><th scope="row">Indicatie authentiek</th><td>  </td></tr><tr><th scope="row">Mogelijk geen waarde</th><td>Nee</td></tr></tbody></table>
+                     
                   </section>
                </section>
                <section id="detail_class_CIMORG_Provincie"><div class="header-wrapper"><h5 id="x5-3-1-8-provincie"><bdi class="secno">5.3.1.8 </bdi>   Provincie</h5><a class="self-link" href="#detail_class_CIMORG_Provincie" aria-label="Permalink for Section 5.3.1.8"></a></div>
                   <section id="detail_association_CIMORG_Provincie_neemtdeelaan"><div class="header-wrapper"><h6 id="x5-3-1-8-1-relatiesoort-details-provincie-neemt-deel-aan"><bdi class="secno">5.3.1.8.1 </bdi>Relatiesoort details  <a href="#global_class_CIMORG_Provincie">Provincie</a> neemt deel aan</h6><a class="self-link" href="#detail_association_CIMORG_Provincie_neemtdeelaan" aria-label="Permalink for Section 5.3.1.8.1"></a></div>
-                     
-                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>neemt deel aan</td></tr><tr><th>Gerelateerd objecttype</th><td>
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>neemt deel aan</td></tr><tr><th scope="row">Herkomst</th><td> </td></tr><tr><th scope="row">Definitie</th><td> </td></tr><tr><th scope="row">Herkomst definitie</th><td> </td></tr><tr><th scope="row">Datum opname</th><td> </td></tr><tr><th scope="row">Gerelateerd objecttype</th><td>
                               <a class="link" href="#global_class_CIMORG_Openbaarlichaamuitgemeenschappelijkeregeling">Openbaar lichaam uit gemeenschappelijke regeling</a>
-                           </td></tr><tr><th>Kardinaliteit</th><td>1</td></tr></tbody></table>
+                           </td></tr><tr><th scope="row">Kardinaliteit</th><td>1</td></tr><tr><th scope="row">Indicatie kardinaliteit bron</th><td>1</td></tr><tr><th scope="row">Indicatie authentiek</th><td>  </td></tr><tr><th scope="row">Mogelijk geen waarde</th><td>Nee</td></tr></tbody></table>
+                     
                   </section>
                </section>
                <section id="detail_class_CIMORG_Organisatie"><div class="header-wrapper"><h5 id="x5-3-1-9-organisatie"><bdi class="secno">5.3.1.9 </bdi>   Organisatie</h5><a class="self-link" href="#detail_class_CIMORG_Organisatie" aria-label="Permalink for Section 5.3.1.9"></a></div>
                   <section id="detail_attribute_CIMORG_Organisatie_OIN"><div class="header-wrapper"><h6 id="x5-3-1-9-1-attribuutsoort-details-organisatie-oin"><bdi class="secno">5.3.1.9.1 </bdi>Attribuutsoort details  <a href="#global_class_CIMORG_Organisatie">Organisatie</a> OIN</h6><a class="self-link" href="#detail_attribute_CIMORG_Organisatie_OIN" aria-label="Permalink for Section 5.3.1.9.1"></a></div>
-                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>OIN</td></tr><tr><th>Formaat</th><td>
+                     <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th scope="row">Naam</th><td>OIN</td></tr><tr><th scope="row">Herkomst</th><td> </td></tr><tr><th scope="row">Definitie</th><td> </td></tr><tr><th scope="row">Herkomst definitie</th><td> </td></tr><tr><th scope="row">Datum opname</th><td> </td></tr><tr><th scope="row">Formaat</th><td>
                               <a class="external-link" href="https://docs.geostandaarden.nl/mim/vv-st-mim-20200225/#primitive-datatypes">Character­String</a>
-                           </td></tr><tr><th>Kardinaliteit</th><td>1</td></tr><tr><th>Mogelijk geen waarde</th><td>Nee</td></tr><tr><th>Indicatie identificerend</th><td>Ja</td></tr></tbody></table>
+                           </td></tr><tr><th scope="row">Kardinaliteit</th><td>1</td></tr><tr><th scope="row">Indicatie authentiek</th><td>  </td></tr><tr><th scope="row">Indicatie afleidbaar</th><td> </td></tr><tr><th scope="row">Indicatie classificerend</th><td> </td></tr><tr><th scope="row">Mogelijk geen waarde</th><td>Nee</td></tr><tr><th scope="row">Indicatie identificerend</th><td>Ja</td></tr></tbody></table>
                   </section>
                </section>
             </section>
@@ -911,12 +911,12 @@ Een bestuursorgaan is volgens de definitie van artikel 1:1 lid 1 Awb een: "orgaa
   </li>
       </ul></section>
   <section id="index" class="appendix"><div class="header-wrapper"><h2 id="a-index"><bdi class="secno">A. </bdi>Index</h2><a class="self-link" href="#index" aria-label="Permalink for Appendix A."></a></div><section id="index-defined-here">
-    <div class="header-wrapper"><h3 id="a-1-begrippen-gedefinieerd-door-deze-specificatie"><bdi class="secno">A.1 </bdi>Begrippen gedefinieerd door deze specificatie</h3><a class="self-link" href="#index-defined-here" aria-label="Permalink for Appendix A.1"></a></div>
+    <div class="header-wrapper"><h3 id="a-1-termen-gedefinieerd-door-deze-specificatie"><bdi class="secno">A.1 </bdi>Termen gedefinieerd door deze specificatie</h3><a class="self-link" href="#index-defined-here" aria-label="Permalink for Appendix A.1"></a></div>
     <ul class="index">
     
   </ul>
   </section><section id="index-defined-elsewhere">
-    <div class="header-wrapper"><h3 id="a-2-begrippen-gedefinieerd-door-verwijzing"><bdi class="secno">A.2 </bdi>Begrippen gedefinieerd door verwijzing</h3><a class="self-link" href="#index-defined-elsewhere" aria-label="Permalink for Appendix A.2"></a></div>
+    <div class="header-wrapper"><h3 id="a-2-termen-gedefinieerd-door-verwijzing"><bdi class="secno">A.2 </bdi>Termen gedefinieerd door verwijzing</h3><a class="self-link" href="#index-defined-elsewhere" aria-label="Permalink for Appendix A.2"></a></div>
     <ul class="index">
     
   </ul>
@@ -925,7 +925,7 @@ Een bestuursorgaan is volgens de definitie van artikel 1:1 lid 1 Awb een: "orgaa
 
 
 <p role="navigation" id="back-to-top">
-    <a href="#title"><abbr title="Back to Top">↑</abbr></a>
+    <a href="#title"><abbr title="Terug naar boven">↑</abbr></a>
   </p><script id="respec-dfn-panel">(() => {
 // @ts-check
 if (document.respec) {
